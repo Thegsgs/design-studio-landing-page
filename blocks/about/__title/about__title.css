@@ -1,0 +1,7 @@
+.about__title {
+  margin: 0 0 35px;
+  width: max-content;
+  align-self: flex-start;
+  font-family: 'Playfair Medium', 'Times New Roman', Times, serif;
+  font-size: 46px;
+}

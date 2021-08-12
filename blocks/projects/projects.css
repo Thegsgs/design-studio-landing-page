@@ -1,0 +1,7 @@
+.projects {
+  padding-bottom: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

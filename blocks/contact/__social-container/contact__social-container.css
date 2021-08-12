@@ -1,0 +1,6 @@
+.contact__social-container {
+  width: 80%;
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
