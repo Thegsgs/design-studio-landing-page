@@ -1,3 +1,15 @@
 .review {
   width: 10%;
 }
+
+@media screen and (max-width: 1000px) {
+  .review {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .review {
+    width: 30%;
+  }
+}

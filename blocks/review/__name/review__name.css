@@ -2,8 +2,5 @@
   margin: 0 0 20px;
   font-family: 'Montserrat', 'Times New Roman', Times, serif;
   font-size: 18px;
-}
-
-.review__name::after {
-  content: " says:";
+  border-bottom: solid 1px;
 }

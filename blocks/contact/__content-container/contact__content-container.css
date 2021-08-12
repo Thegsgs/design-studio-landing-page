@@ -5,4 +5,12 @@
   background-color: #f2f2f2;
   display: flex;
   justify-content: space-around;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1000px) {
+  .contact__content-container {
+    flex-direction: column;
+  }
 }

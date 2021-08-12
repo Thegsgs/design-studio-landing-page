@@ -1,0 +1,10 @@
+@keyframes rotation {
+  from {
+    left: 0;
+    bottom: 0;
+  }
+  to {
+    left: 100%;
+    bottom: 0;
+  }
+}

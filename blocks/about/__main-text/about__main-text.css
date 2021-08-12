@@ -5,3 +5,9 @@
   font-size: 26px;
   line-height: 36px;
 }
+
+@media screen and (max-width: 1000px) {
+  .about__main-text {
+    width: 100%;
+  }
+}

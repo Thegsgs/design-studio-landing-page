@@ -3,3 +3,9 @@
   justify-content: space-between;
   width: 60%;
 }
+
+@media screen and (max-width: 1000px) {
+  .contact__text-container {
+    width: 100%;
+  }
+}
