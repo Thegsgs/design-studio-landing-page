@@ -25,6 +25,7 @@
 @import url(../blocks/project/__subtitle/project__subtitle.css);
 @import url(../blocks/project/__title/project__title.css);
 @import url(../blocks/contact/contact.css);
+@import url(../blocks/contact/__map-container/contact__map-container.css);
 @import url(../blocks/contact/__column-heading/contact__column-heading.css);
 @import url(../blocks/contact/__column-text/contact__column-text.css);
 @import url(../blocks/contact/__content-container/contact__content-container.css);
@@ -45,3 +46,6 @@
 @import url(../blocks/review/__image-container/review__image-container.css);
 @import url(../blocks/review/__name/review__name.css);
 @import url(../blocks/review/__text/review__text.css);
+@import url(../blocks/to-top/to-top.css);
+@import url(../blocks/to-top/__image/to-top__image.css);
+@import url(../blocks/to-top/__link/to-top__link.css);

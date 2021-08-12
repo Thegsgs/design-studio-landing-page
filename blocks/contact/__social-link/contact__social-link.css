@@ -1,3 +1,9 @@
 .contact__social-link {
   width: 24px;
+  transition: all .2s ease;
+}
+
+.contact__social-link:hover {
+  opacity: .6;
+  transform: translateY(2px)
 }

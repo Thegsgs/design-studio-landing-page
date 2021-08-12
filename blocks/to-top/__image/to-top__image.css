@@ -1,0 +1,8 @@
+.to-top__image {
+  margin: 0;
+  width: 60%;
+  height: 60%;
+  transform: translateX(32.5%);
+  position: relative;
+  align-self: center;
+}

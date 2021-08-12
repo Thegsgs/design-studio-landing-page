@@ -1,0 +1,18 @@
+.to-top {
+  width: 60px;
+  height: 60px;
+  background-color: #2f2f2f;
+  opacity: .8;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 35px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity .2s ease;
+}
+
+.to-top:hover {
+  opacity: 1;
+}
