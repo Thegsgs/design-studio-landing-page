@@ -1,0 +1,9 @@
+.contact__triangle {
+  margin: 0;
+  width: 40px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  animation: rotation 10s linear infinite forwards;
+}
