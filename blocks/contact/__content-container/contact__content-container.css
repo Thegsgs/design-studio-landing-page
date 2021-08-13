@@ -12,7 +12,7 @@
 @media screen and (max-width: 1024px) {
   .contact__content-container {
     width: 100%;
-    padding: 0;
+    padding: 40px;
     flex-direction: column;
     align-items: center;
   }
