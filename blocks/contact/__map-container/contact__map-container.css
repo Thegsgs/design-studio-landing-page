@@ -5,8 +5,10 @@
   padding-top: 30%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   .contact__map-container {
     width: 100%;
+    padding-top: 70%;
+    margin-top: 20px;
   }
 }

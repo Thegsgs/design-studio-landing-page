@@ -2,5 +2,11 @@
   width: 90%;
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 450px) {
+  .reviews__content-container {
+    flex-direction: column;
+    align-items: center;
+  }
 }

@@ -9,8 +9,14 @@
   transform: translateY(5px);
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   .lead__arrow {
     bottom: 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .lead__arrow {
+    opacity: 0;
   }
 }

@@ -6,8 +6,15 @@
   line-height: 36px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   .about__main-text {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .about__main-text {
+    font-size: 20px;
+    line-height: 28px;
   }
 }

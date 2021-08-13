@@ -2,3 +2,11 @@
   width: 45%;
   margin-right: 20px;
 }
+
+@media screen and (max-width: 450px) {
+  .contact__column-container {
+    margin: 0;
+    width: 100%;
+    margin-bottom: 35px;
+  }
+}
