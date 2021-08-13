@@ -6,6 +6,7 @@
 
 @media screen and (max-width: 1024px) {
   .contact__text-container {
+    padding-left: 40px;
     width: 100%;
   }
 }
