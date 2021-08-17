@@ -10,11 +10,6 @@
   transition: all .3s ease;
 }
 
-.project__image:hover {
-  transform: scale(1);
-  filter: grayscale(0);
-}
-
 @media screen and (max-width: 1024px) {
   .project__image {
     filter: grayscale(0);

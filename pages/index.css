@@ -24,7 +24,9 @@
 @import url(../blocks/project/__text-container/project__text-container.css);
 @import url(../blocks/project/__subtitle/project__subtitle.css);
 @import url(../blocks/project/__title/project__title.css);
-@import url(../blocks/project/__image-arrow/project__image-arrow.css);
+@import url(../blocks/project/__arrow-container/project__arrow-container.css);
+@import url(../blocks/project/__arrow-container/_left/project__arrow-container_left.css);
+@import url(../blocks/project/__arrow-container/_right/project__arrow-container_right.css);
 @import url(../blocks/contact/contact.css);
 @import url(../blocks/contact/__map-container/contact__map-container.css);
 @import url(../blocks/contact/__column-heading/contact__column-heading.css);

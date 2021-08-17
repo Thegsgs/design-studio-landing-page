@@ -1,6 +1,7 @@
 .contact__social-link {
   width: 24px;
   transition: all .2s ease;
+  cursor: pointer;
 }
 
 .contact__social-link:hover {

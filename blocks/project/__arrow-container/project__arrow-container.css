@@ -1,0 +1,13 @@
+.project__arrow-container {
+  position: absolute;
+  background-color: black;
+  height: 15%;
+  width: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-50%);
+  cursor: pointer;
+  opacity: 0;
+  transition: all .2s ease;
+}
