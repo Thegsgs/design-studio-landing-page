@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Design Studio</title>
+  <link rel="shortcut icon" type="image/jpg" href="./images/twitter-icon.png" />
 </head>
 
 <body class="page">
@@ -63,10 +64,10 @@
       </div>
       <div class="project">
         <div class="project__image-container">
-          <img class="project__image" src="./images/dining.jpg" alt="Placeholder text">
+          <img class="project__image" id="dining-image" src="./images/dining1.jpg" alt="Placeholder text">
 
-          <div class="project__arrow-container project__arrow-container_left"><img class="project__icon_left" src="./images/arrow-back.svg"></div>
-          <div class="project__arrow-container project__arrow-container_right"><img class="project__icon_right" src="./images/arrow-forward.svg"></div>
+          <button class="project__arrow-container project__arrow-container_left" id="dining-left"><img class="project__icon_left" src="./images/arrow-back.svg"></button>
+          <button class="project__arrow-container project__arrow-container_right" id="dining-right"><img class="project__icon_right" src="./images/arrow-forward.svg"></button>
         </div>
         <div class="project__text-container">
           <h3 class="project__title">Placeholder text</h3>
@@ -184,6 +185,7 @@
       <img class="to-top__image" src="./images/white-up-icon.jpg">
     </a>
   </div>
+  <script type="text/javascript" src="./script.js"></script>
 </body>
 
 </html>

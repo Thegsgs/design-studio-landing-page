@@ -14,3 +14,7 @@
 .project__image-container:hover .project__arrow-container {
   opacity: .7;
 }
+
+.project__arrow-container:hover {
+  opacity: 1;
+}

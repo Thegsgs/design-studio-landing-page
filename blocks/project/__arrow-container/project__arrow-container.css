@@ -7,7 +7,12 @@
   justify-content: center;
   align-items: center;
   transform: translateY(-50%);
-  cursor: pointer;
   opacity: 0;
   transition: all .2s ease;
+  border: hidden;
+  cursor: pointer;
+}
+
+.project__arrow-container:hover {
+  opacity: 1;
 }
