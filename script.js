@@ -1,6 +1,9 @@
 let rightButton = document.getElementById('dining-right');
 let leftButton = document.getElementById('dining-left');
 let currentImage = document.getElementById('dining-image');
+let popUp = document.querySelector('.popup');
+let closeButton = document.querySelector('.popup__button-close');
+let popUpImage = document.querySelector('.popup__image')
 let diningArray = new Array();
 
 diningArray[0] = new Image();
@@ -45,5 +48,12 @@ function previousImage() {
   }
 }
 
+function togglePopup() {
+  popUpImage.src = diningArray[imagePosition].src;
+  popUp.classList.toggle('popup_opened');
+}
+
 rightButton.addEventListener('click', nextImage);
 leftButton.addEventListener('click', previousImage);
+currentImage.addEventListener('click', togglePopup);
+closeButton.addEventListener('click', togglePopup);

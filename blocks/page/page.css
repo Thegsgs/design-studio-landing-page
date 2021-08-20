@@ -1,3 +1,4 @@
 .page {
   scroll-behavior: smooth;
+  position: relative;
 }
