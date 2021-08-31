@@ -13,7 +13,6 @@
 </head>
 
 <body class="page">
-  <div id="particles-js" data-aos="fade-left"></div>
   <header class="header" data-aos="fade-down">
     <div class="header__container">
       <a class="header__link" href="#">Home</a>
@@ -30,6 +29,7 @@
     <a class="lead__arrow" href="#about"><img src="./images/down-arrow.png"></a>
   </section>
   <section class="about" id="about" data-aos="fade-right">
+    <div id="particles-js" data-aos="fade-left"></div>
     <div class="about__title-container">
       <h2 class="about__title">ABOUT US</h2>
     </div>
@@ -114,6 +114,7 @@
   </section>
   <section class="reviews" data-aos="fade-down">
     <div class="reviews__content-container">
+      <div id="particles-js2" data-aos="fade-left"></div>
       <div class="review">
         <div class="review__image-container">
           <img class="review__image" src="./images/clients/Dennis.jpg">
@@ -197,9 +198,8 @@
   <script src="./scripts/script.js"></script>
   <script src='https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js'></script>
   <script>
-    particlesJS.load('particles-js', 'particles.json', function() {
-      console.log('particles.js loaded');
-    });
+    particlesJS.load('particles-js', 'particles.json');
+    particlesJS.load('particles-js2', 'particles.json');
   </script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="./scripts/aos.js"></script>
