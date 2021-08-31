@@ -1,13 +1,7 @@
 .popup__container {
-  position: fixed;
-  max-width: 90%;
-  max-height: 70%;
-  top: 7vh;
-  right: 50wv;
-  background-color: white;
-  width: max-content;
-  height: max-content;
-  z-index: 4;
-  border: solid white;
-  opacity: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 75vw;
 }

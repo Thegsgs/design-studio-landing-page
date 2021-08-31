@@ -1,10 +1,10 @@
-let rightButton = document.getElementById('dining-right');
-let leftButton = document.getElementById('dining-left');
-let currentImage = document.getElementById('dining-image');
-let popUp = document.querySelector('.popup');
-let closeButton = document.querySelector('.popup__button-close');
-let popUpImage = document.querySelector('.popup__image')
-let diningArray = new Array();
+const rightButton = document.getElementById('dining-right');
+const leftButton = document.getElementById('dining-left');
+const currentImage = document.getElementById('dining-image');
+const popUp = document.querySelector('.popup');
+const closeButton = document.querySelector('.popup__button-close');
+const popUpImage = document.querySelector('.popup__image');
+const diningArray = new Array();
 
 diningArray[0] = new Image();
 diningArray[0].src = './images/dining1.jpg';
@@ -22,17 +22,20 @@ diningArray[4] = new Image();
 diningArray[4].src = ' ./images/dining5.jpg';
 
 imagePosition = 0;
-console.log(imagePosition);
+
+function transitonImage(image) {
+  image.setAttribute(opacity, 0);
+}
 
 function nextImage() {
   if (imagePosition === diningArray.length - 1) {
     imagePosition = 0;
-    currentImage.src = diningArray[imagePosition].src;
-    console.log(imagePosition);
+    currentImage.src = diningArray[0].src;
+
   } else {
     imagePosition += 1;
     currentImage.src = diningArray[imagePosition].src;
-    console.log(imagePosition);
+
   }
 }
 
@@ -40,11 +43,11 @@ function previousImage() {
   if (imagePosition === 0) {
     imagePosition = diningArray.length - 1;
     currentImage.src = diningArray[imagePosition].src;
-    console.log(imagePosition);
+
   } else {
     imagePosition -= 1;
     currentImage.src = diningArray[imagePosition].src;
-    console.log(imagePosition);
+
   }
 }
 
