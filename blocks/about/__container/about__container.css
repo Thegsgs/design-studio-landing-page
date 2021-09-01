@@ -1,7 +1,13 @@
 .about__container {
   position: relative;
-  width: 90%;
+  width: 100%;
   max-width: 1728px;
   display: flex;
   flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 450px) {
+  .about__container {
+    width: 100%;
+  }
 }
