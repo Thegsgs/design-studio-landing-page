@@ -1,5 +1,6 @@
-.to-top__link.css {
+.to-top__link {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0;

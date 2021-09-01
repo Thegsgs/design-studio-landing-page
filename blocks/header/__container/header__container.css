@@ -1,4 +1,5 @@
 .header__container {
+  padding: 5px;
   width: 100%;
   max-width: 1920px;
   display: flex;

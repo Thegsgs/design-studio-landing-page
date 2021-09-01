@@ -12,7 +12,7 @@
 </head>
 
 <body class="page">
-  <header class="header" data-aos="fade-down">
+  <header class="header">
     <div class="header__container">
       <a class="header__link" href="#">Home</a>
       <div class="header__list">
@@ -24,6 +24,8 @@
     </h2>
   </header>
   <section class="lead" data-aos="fade-down" data-aos-delay="600">
+    <button class="lead__arrow-container lead__arrow-container_left" id="dining-left"><img class="lead__icon lead__icon_left" src="./images/arrow-back.svg"></button>
+    <button class="lead__arrow-container lead__arrow-container_right" id="dining-right"><img class="lead__icon lead__icon_right" src="./images/arrow-forward.svg"></button>
     <h1 class="lead__title">SOME INTERIOR DESIGN</h1>
     <a class="lead__arrow" href="#about"><img src="./images/down-arrow.png"></a>
   </section>
@@ -46,7 +48,7 @@
   <section class="reviews" data-aos="fade-down">
     <div class="reviews__content-container">
       <div id="particles-js2" data-aos="fade-left"></div>
-  </div>
+    </div>
   </section>
   <section class="contact" id="contact" data-aos="fade-down">
     <div class="contact__title-container">
@@ -132,7 +134,7 @@
 
   <script src="./scripts/index.js" type="module"></script>
 
- <script src='https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js'></script>
+  <script src='https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js'></script>
   <script>
     if (window.innerWidth > 768) {
       particlesJS.load('particles-js', 'particles.json');

@@ -1,0 +1,17 @@
+.lead__arrow-container {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: hidden;
+  background-color: black;
+  opacity: .8;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity .3s ease;
+}
+
+.lead__arrow-container:hover {
+  opacity: 1;
+}

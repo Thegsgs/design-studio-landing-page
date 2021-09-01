@@ -93,3 +93,16 @@ function previousImage() {
 
 rightBtn.addEventListener('click', nextImage);
 leftBtn.addEventListener('click', previousImage);
+
+const header = document.querySelector('.header');
+
+let prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  let currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    header.classList.remove('header_hidden');
+  } else {
+    header.classList.add('header_hidden');
+  }
+  prevScrollpos = currentScrollPos;
+}
