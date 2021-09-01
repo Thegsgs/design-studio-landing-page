@@ -16,7 +16,7 @@ const initialProjects = [
   subtitle: 'Placeholder text'
 },
 {
-  image: '/images/bed.jpg',
+  image: './images/bed.jpg',
   title: 'Placeholder text',
   subtitle: 'Placeholder text'
 },
