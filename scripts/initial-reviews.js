@@ -14,6 +14,11 @@ const initialReviews = [
     name: 'Harry Griffin',
     review: `"Some provide expert advice from consultations and staging up to full renovations. Do not hesitate to make an appointment. You will not be disappointed!" ★★★★★`
   },
+
+  { image: './images/clients/Ian.webp',
+    name: 'Ian Wong',
+    review: `"Some provide expert advice from consultations and staging up to full renovations. Do not hesitate to make an appointment. You will not be disappointed!" ★★★★★`
+  }
 ]
 
 export {initialReviews};

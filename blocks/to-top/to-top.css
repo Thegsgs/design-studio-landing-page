@@ -2,10 +2,9 @@
   width: 40px;
   height: 40px;
   opacity: .6;
-  border-radius: 50%;
   position: fixed;
-  bottom: 35px;
-  right: 20px;
+  bottom: 20px;
+  right: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,4 +14,8 @@
 .to-top:hover {
   opacity: 1;
   transform: translateY(-5px);
+}
+
+.to-top:hover .to-top__text {
+  opacity: 1;
 }
