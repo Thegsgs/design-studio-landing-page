@@ -1,8 +1,8 @@
 .lead {
   position: relative;
   margin: 0 auto;
-  width: 95%;
-  max-width: 1824px;
+  width: 100%;
+  max-width: 1920px;
   display: flex;
   justify-content: center;
   align-items: center;

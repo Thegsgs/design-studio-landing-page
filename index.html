@@ -7,9 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Design Studio</title>
-  <link rel="shortcut icon" type="image/jpg" href="./images/twitter-icon.png" />
+  <link rel="shortcut icon" type="image/jpg" href="http://www.decorandmore.com/images/icons/home-icon-furniture.png" />
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
 </head>
 
 <body class="page">
@@ -25,22 +24,22 @@
     </h2>
   </header>
   <section class="lead" data-aos="fade-down" data-aos-delay="600">
-    <h1 class="lead__title">SOME DESIGN STUDIO</h1>
+    <h1 class="lead__title">SOME INTERIOR DESIGN</h1>
     <a class="lead__arrow" href="#about"><img src="./images/down-arrow.png"></a>
   </section>
   <section class="about" id="about" data-aos="fade-right">
-    <div id="particles-js" data-aos="fade-left"></div>
     <div class="about__title-container">
       <h2 class="about__title">ABOUT US</h2>
     </div>
     <div class="about__container">
+      <div id="particles-js" data-aos="fade-left"></div>
       <p class="about__main-text">Some Interior Design was established since 2021, with a strong focus on bespoke designs and creativity. We rapidly established a reputation for creating extravagant, iconic, timeless spaces for luxury and boutique brands. It is known for delivering
         world class service based on innovative design solutions and timely delivery.</p>
     </div>
   </section>
   <section class="projects" id="projects">
     <div class="projects__title-container">
-      <h2 class="projects__title">NOTABLE PROJECTS</h2>
+      <h2 class="projects__title" data-aos="fade-down">NOTABLE PROJECTS</h2>
     </div>
     <div class="projects__content-container">
       <div class="project" data-aos="fade-down">
@@ -186,7 +185,7 @@
   </footer>
   <div class="to-top">
     <a class="to-top__link" href="#">
-      <img class="to-top__image" src="./images/white-up-icon.jpg">
+      <img class="to-top__image" src="./images/north_black_24dp.svg">
     </a>
   </div>
   <div class="popup">
@@ -198,8 +197,10 @@
   <script src="./scripts/script.js"></script>
   <script src='https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js'></script>
   <script>
-    particlesJS.load('particles-js', 'particles.json');
-    particlesJS.load('particles-js2', 'particles.json');
+    if (window.innerWidth > 768) {
+      particlesJS.load('particles-js', 'particles.json');
+      particlesJS.load('particles-js2', 'particles.json');
+    }
   </script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="./scripts/aos.js"></script>

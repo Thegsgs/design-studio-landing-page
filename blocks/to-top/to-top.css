@@ -1,8 +1,7 @@
 .to-top {
   width: 40px;
   height: 40px;
-  background-color: #2f2f2f;
-  opacity: .8;
+  opacity: .6;
   border-radius: 50%;
   position: fixed;
   bottom: 35px;

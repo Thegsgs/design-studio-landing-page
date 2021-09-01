@@ -1,4 +1,7 @@
 .about__container {
+  position: relative;
   width: 90%;
   max-width: 1728px;
+  display: flex;
+  flex-direction: row-reverse;
 }
