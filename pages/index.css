@@ -1,6 +1,8 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/fonts.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/main/main.css);
+@import url(../blocks/main/_blurred/main_blurred.css);
 @import url(../blocks/particles/particles-js/particles-js.css);
 @import url(../blocks/particles/particles-js2/particles-js2.css);
 @import url(../blocks/header/header.css);
@@ -66,3 +68,9 @@
 @import url(../blocks/popup/__btn-close/popup__btn-close.css);
 @import url(../blocks/popup/__icon-close/popup__icon-close.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__btn-close/menu__btn-close.css);
+@import url(../blocks/menu/__close-icon/menu__close-icon.css);
+@import url(../blocks/menu/__container/menu__container.css);
+@import url(../blocks/menu/__link/menu__link.css);
+@import url(../blocks/menu/_opened/menu_opened.css);

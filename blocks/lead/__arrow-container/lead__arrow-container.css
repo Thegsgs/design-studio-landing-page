@@ -15,3 +15,9 @@
 .lead__arrow-container:hover {
   opacity: 1;
 }
+
+@media screen and (max-width: 768px) {
+  .lead__arrow-container {
+    display: none;
+  }
+}

@@ -1,0 +1,3 @@
+.main_blurred {
+  filter: blur(10px);
+}

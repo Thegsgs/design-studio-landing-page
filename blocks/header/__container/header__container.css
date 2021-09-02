@@ -6,3 +6,19 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media screen and (max-width: 768px) {
+  .header__container {
+    width: 10%;
+    background-image: url(../../../images/menu_white_24dp.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    padding-left: 20px;
+    transition: opacity .3s ease;
+  }
+  .header__container:hover {
+    opacity: .4;
+  }
+}

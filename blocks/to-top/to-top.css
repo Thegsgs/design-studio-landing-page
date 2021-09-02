@@ -19,3 +19,9 @@
 .to-top:hover .to-top__text {
   opacity: 1;
 }
+
+@media screen and (max-width: 768px) {
+  .to-top {
+    display: none;
+  }
+}

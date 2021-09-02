@@ -1,0 +1,14 @@
+.menu__link {
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat', 'Times New Roman', Times, serif;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  cursor: pointer;
+  transition: opacity .3s ease;
+}
+
+.menu__link:hover {
+  opacity: .4;
+}
