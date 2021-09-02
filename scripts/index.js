@@ -86,10 +86,20 @@ if (window.innerWidth > 768) {
 const menu = document.querySelector('.menu');
 const main = document.querySelector('.main');
 
+function setAnchors() {
+  const menuLinks = Array.from(menu.querySelectorAll('.menu__link'));
+  menuLinks.forEach(link => {
+    link.addEventListener('click', closeMenu);
+  });
+
+}
+
+
 function openMenu() {
   if (window.innerWidth <= 768) {
     main.classList.add('main_blurred');
     menu.classList.add('menu_opened');
+    setAnchors();
   }
 }
 
